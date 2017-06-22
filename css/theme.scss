@@ -13,9 +13,13 @@ $brand-primary:             #593287;
 
 
 $brand-success:             #5cb85c;
-$brand-info:                #222;
+$brand-info:                #333;
+
+
+
 $brand-warning:             #f0ad4e;   
-$brand-danger:              #d9534f;
+$brand-danger:              #d95366;
+
 $brand-inverse:             #292b2c; 
 
   
@@ -55,6 +59,9 @@ $display1-size: 6 * $font-size-base;
 $display2-size: 5.5 * $font-size-base;
 $display3-size: 4.5 * $font-size-base;
 $display4-size: 3.5 * $font-size-base;
+
+
+$display2-font-size-small  : 10vw;
 
 $border-radius: 0px;
 
