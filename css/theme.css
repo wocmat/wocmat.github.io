@@ -6052,10 +6052,10 @@ body > * {
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
   font-family: Montserrat, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif; }
-  
-  
+
+
    /*user define css*/
-  
+
 
 .line-left {
 	border-left:15px;border-left-style:solid;border-color:white;
@@ -6064,7 +6064,7 @@ body > * {
 .line-left-black {
 	border-left:15px;border-left-style:solid;border-color:black;
 }
- 
+
 @media screen and (max-width: 768px) {
   	.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 { font-size: 10vw; }
   	.line-left {
