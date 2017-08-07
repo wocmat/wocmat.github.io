@@ -38,8 +38,10 @@ $body-color: #292b2c;
 $body-color-inverse: invert($body-color) !default;
 $link-color: #FF540D;
 
-$font-family-base: Montserrat;
-$headings-font-family: Playfair Display;
+$font-family-base: Montserrat,Arial,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
+
+$headings-font-family:Montserrat,Arial,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
+
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-h1: 2.5 * $font-size-base;
@@ -60,4 +62,7 @@ $display2-font-size-small  : 10vw;
 $border-radius: 0px;
 
 $border-radius-lg: $border-radius * 1.2;$border-radius-sm: $border-radius * .8;$spacer: 1.5rem;
+$display-font-family: Montserrat,Arial,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
+
+
 @import 'bootstrap-4.0.0-alpha.6';

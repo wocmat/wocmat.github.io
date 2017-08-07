@@ -3868,7 +3868,7 @@ tbody.collapse.show {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.75rem;
-  font-family: Playfair, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif Display;
+  font-family: Montserrat, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -4026,10 +4026,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #cc2d44 !important; }
 
 .bg-inverse {
-  background-color: #ddd !important; }
+  background-color: #292b2c !important; }
 
 a.bg-inverse:focus, a.bg-inverse:hover {
-  background-color: #c4c4c4 !important; }
+  background-color: #101112 !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -5950,7 +5950,7 @@ body > * {
   color: #000000; }
 
 .bg-inverse {
-  color: #000000; }
+  color: #ffffff; }
 
 .btn-primary {
   color: #ffffff; }
@@ -6005,7 +6005,7 @@ body > * {
   background: rgba(89, 50, 135, 0.8); }
 
 .opaque.bg-inverse > *:first-child:before {
-  background: rgba(221, 221, 221, 0.8); }
+  background: rgba(41, 43, 44, 0.8); }
 
 .opaque.bg-info > *:first-child:before {
   background: rgba(51, 51, 51, 0.8); }
@@ -6022,7 +6022,7 @@ body > * {
 
 .opaque-fade-out.bg-inverse > *:first-child:before {
   background: inherit;
-  background-image: linear-gradient(to bottom, transparent 0%, #ddd 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #292b2c 100%);
   background-repeat: repeat-x; }
 
 .opaque-fade-out.bg-info > *:first-child:before {
@@ -6042,7 +6042,7 @@ body > * {
 
 .opaque-fade-in.bg-inverse > *:first-child:before {
   background: inherit;
-  background-image: linear-gradient(to bottom, #ddd 0%, transparent 100%);
+  background-image: linear-gradient(to bottom, #292b2c 0%, transparent 100%);
   background-repeat: repeat-x; }
 
 .opaque-fade-in.bg-info > *:first-child:before {
@@ -6052,26 +6052,3 @@ body > * {
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
   font-family: Montserrat, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif; }
-
-
-   /*user define css*/
-
-
-.line-left {
-	border-left:15px;border-left-style:solid;border-color:white;
-}
-
-.line-left-black {
-	border-left:15px;border-left-style:solid;border-color:black;
-}
-
-@media screen and (max-width: 768px) {
-  	.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 { font-size: 10vw; }
-  	.line-left {
-	border-left:1.5vw;border-left-style:solid;border-color:white;
-	}
-	.line-left-black {
-	border-left:1.5vw;border-left-style:solid;border-color:black;
-	}
-}
-
