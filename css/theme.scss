@@ -56,6 +56,11 @@ $display2-size: 5.5 * $font-size-base;
 $display3-size: 4.5 * $font-size-base;
 $display4-size: 3.5 * $font-size-base;
 
+.img-speaker{
+  overflow:hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 
 $display2-font-size-small  : 10vw;
 
